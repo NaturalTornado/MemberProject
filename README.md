@@ -1,4 +1,4 @@
-MemberProject
+MemberProject!!
 Overview
 The MemberProject is a Node.js web application that serves as a private clubhouse where members can write anonymous posts. Non-members can see posts but not their authors. Members can view the full details of posts, including authorship. Users can sign up, log in, post messages, and upgrade their membership using a passcode.
 The project demonstrates the use of Express, Passport.js for authentication, PostgreSQL for data persistence, and EJS for server-side rendering.
