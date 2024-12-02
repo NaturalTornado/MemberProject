@@ -9,8 +9,8 @@
     <h1>Welcome back, <%= user.username %>!</h1>
     <a href="/log-out">Log Out</a>
 
-    <!-- Display user messages -->
-    <h2>Messages</h2>
+    <!-- Display blog posts -->
+    <h2>Posts</h2>
     <ul>
       <% messages.forEach((msg) => { %>
         <li>
@@ -28,12 +28,12 @@
 
     <!-- Form to Add a New Message -->
     <div>
-      <h3>Add a New Message</h3>
+      <h3>Add a New Blog Post</h3>
       <form action="/new-message" method="POST">
-        <label for="newMessageTitle">New Message Title</label>
+        <label for="newMessageTitle">New Post Title</label>
         <input type="text" id="newMessageTitle" name="newMessageTitle" required />
 
-        <label for="newMessage">Message Content</label>
+        <label for="newMessage">Blog Post Content</label>
         <textarea id="newMessage" name="newMessage" required></textarea>
 
         <button type="submit">Submit</button>
